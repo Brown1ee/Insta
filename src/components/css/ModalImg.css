@@ -1,0 +1,141 @@
+.whole-modal {
+  width: 900px !important;
+}
+
+.pic-inside-modal {
+  width: 100%;
+}
+
+.text-for-img {
+  margin-left: 20px;
+}
+.modal-right-button {
+  width: 30px;
+  position: fixed;
+  top: 33%;
+  right: 23%;
+  color: white;
+  font-size: 40px;
+}
+.prof-pic-min {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.min-prof-pic-text {
+  margin: 20px;
+}
+hr {
+  width: 87%;
+  border-top: 1px solid silver;
+}
+.modal-left-button {
+  width: 30px;
+  position: fixed;
+  top: 33%;
+  left: 23%;
+  color: white;
+  font-size: 40px;
+}
+
+.ant-modal-content {
+  border-radius: 0px !important;
+}
+
+@media only screen and (max-width: 1700px) {
+  .modal-left-button {
+    top: 33%;
+    left: 17.3%;
+  }
+  .modal-right-button {
+    top: 33%;
+    right: 18%;
+  }
+}
+
+@media only screen and (max-width: 1480px) {
+  .modal-left-button {
+    top: 33%;
+    left: 14.3%;
+  }
+  .modal-right-button {
+    top: 33%;
+    right: 15%;
+  }
+}
+
+@media only screen and (max-width: 1355px) {
+  .modal-left-button {
+    top: 33%;
+    left: 10.3%;
+  }
+  .modal-right-button {
+    top: 33%;
+    right: 11%;
+  }
+}
+
+@media only screen and (max-width: 1210px) {
+  .modal-left-button {
+    top: 33%;
+    left: 5.3%;
+  }
+  .modal-right-button {
+    top: 33%;
+    right: 6%;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  .modal-left-button {
+    top: 33%;
+    left: 2.3%;
+  }
+
+  .modal-right-button {
+    top: 33%;
+    right: 3%;
+  }
+
+  .whole-modal {
+    width: 800px !important;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .modal-left-button {
+    top: 33%;
+    left: 2.3%;
+  }
+
+  .modal-right-button {
+    top: 33%;
+    right: 3%;
+  }
+
+  .whole-modal {
+    width: 700px !important;
+  }
+}
+
+@media only screen and (max-width: 805px) {
+  .modal-left-button {
+    top: 50%;
+    left: 0%;
+  }
+
+  .modal-right-button {
+    top: 50%;
+    right: 1%;
+  }
+
+  .whole-modal {
+    width: 600px !important;
+  }
+}
+
+@media only screen and (max-width: 670px) {
+  .whole-modal {
+    width: 500px !important;
+  }
+}
